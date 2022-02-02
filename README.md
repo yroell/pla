@@ -30,7 +30,7 @@ The top and bottom dilutions are removed as necessary. If the top or bottom 3 po
 *Lines 217-293:*
 The data is now split so that we have a dataset that only contains the samples with the unique combination identified previously and points are removed if they fall outside of the top or bottom dilutions within the standard dataset or if they have less than three replicates. If this sample ID, antigen, and antibody combination does not exist, this is recorded in the logfile and the script moves on to the next unique combination. If the dataset contains less than three dilutions, this is recorded in the logfile and the script moves on to the next unique combination. If the combination exists, a line is created from this dataset and the slope and intercept of the line are obtained.
 
-##### Script diverges depending on the slope of the lines
+#### Script diverges depending on the slope of the lines
 The next few chunks of codes either plot the data if they are already parallel or tries to make the data parallel as best as possible. If the data cannot be parallel after all the steps, the script moves on to the next unique combination.
 
 *Lines 295-373: data is already parallel;*
