@@ -1,5 +1,5 @@
 ###################################
-# User input (change lines 14-17 as needed):
+# User input (change lines 13-16 as needed):
 #   1. path = location where file to read is placed and where results will be stored
 #   2. filename = name of file to work with
 #       a) must be csv
